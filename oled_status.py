@@ -1,14 +1,16 @@
 #!/home/pi/oled_env/bin/python3
 #
+# FILENAME: oled_status.py
+#
 # CUPS-Statusanzeige für ein SSD1306-OLED mit 128 x 32 Pixeln.
 #
 # Das Display gibt drei Zustände aus: IDLE. DATA und PRINT
 #
-# IDLE holt Systemdaten aus dem Pi Linux und gibt sie als Laufschrift aus
+# - IDLE holt Systemdaten aus dem Pi Linux und gibt sie als Laufschrift aus
 #
-# DATA kommt aus der CUPS-Auftragserkennung. 
+# - DATA kommt aus der CUPS-Auftragserkennung. 
 #
-# PRINT beginnt mit der Übertragung der Daten an den Drucker (aus CUPS).
+# - PRINT startet mit der Übertragung der Daten an den Drucker (aus CUPS).
 # Dann wird f002zfs_monitor.py gestartet. Dieser Prozess überwacht 
 # die Datenübertragung von und zum Drucker und reicht die Daten unverändert
 # an den eigentlichen Prozess foomatic-rip weiter (man-in-the-middle). 
@@ -16,6 +18,7 @@
 # Drucker sendet. Diese Information wird von oled_status.py verarbeitet,
 # um eine synchronisierte Seitenzählung am Display auszugeben.
 #
+##################################################################################
 
 import os
 import re
