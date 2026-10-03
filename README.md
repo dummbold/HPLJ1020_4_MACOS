@@ -16,6 +16,7 @@ Lest einfach alle Details im Wiki
 
 
 [hpljcupsdisplay.webm](https://github.com/user-attachments/assets/8a37256c-d5c6-4891-83c9-5749d2a5ec92)
+
 Das Video ist ungeschnitten und in Originalgeschwindigkeit, aber leicht gekürzt. Nach PRINT folgt wieder die IDLE-Anzeige.
 
 
