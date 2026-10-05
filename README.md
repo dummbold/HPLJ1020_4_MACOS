@@ -8,7 +8,10 @@
 
 
 # HPLJ1020_4_MACOS
-Hier findet ihr eine Anleitung und ein bisschen Software um einen alten HP LaserJet 1020 (2005) weiterhin zu betreiben, auch wenn MacOS ab V27 (Golden Gate) den alten Druckertreiber HP LaserJet 1022 V1.6.1 nicht mehr unterstützt. Dazu müsst ihr einen CUPS-Druckerserver auf einem Raspberry Pi aufsetzen. Dabei gibt es eine Kleinigkeit zu beachten, die ich im Wiki beschreibe. Ansonsten hilft euch die KI beim Aufsetzen. Das besondere an meinem CUPS-Server ist ein kleines OLED-Display, dass Systemdaten und auch den Druckerstatus anzeigt - ein Feature, das ich beim Drucker selbst schmerzhaft vermisst habe. Der hat ja nur eine LED die anzeigt dass er eingeschaltet ist.
+
+Hier findet ihr eine Anleitung und ein bisschen Software um einen alten HP LaserJet 1020 (Baujahr 2005) weiterhin zu betreiben, auch wenn MacOS ab V27 (Golden Gate) den alten Druckertreiber HP LaserJet 1022 V1.6.1 nicht mehr unterstützt. Er ist damit auch AirPrint-fähig!
+
+Dazu müsst ihr einen CUPS-Druckerserver auf einem Raspberry Pi aufsetzen. Dabei gibt es zwei Kleinigkeiten zu beachten, die ich im Wiki beschreibe. Bei Aufsetzen lasst euch von der KI helfen. Das besondere an meinem CUPS-Server ist ein kleines OLED-Display, dass Systemdaten und auch den Druckerstatus anzeigt - ein Feature, das ich beim Drucker selbst schmerzhaft vermisst habe. Der hat ja nur eine LED die anzeigt dass er eingeschaltet ist.
 
 Lest einfach alle Details im [**Wiki**](https://github.com/dummbold/HPLJ1020_4_MACOS/wiki)
 
@@ -21,3 +24,4 @@ Das Video ist ungeschnitten und in Originalgeschwindigkeit, aber leicht gekürzt
 
 
  
+    UPDATE 2 - 5.10.2026/20:50
