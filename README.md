@@ -16,6 +16,7 @@ Dazu müsst ihr einen CUPS-Druckerserver auf einem Raspberry Pi aufsetzen. Dabei
 Lest einfach alle Details im [**Wiki**](https://github.com/dummbold/HPLJ1020_4_MACOS/wiki)
 
 **ACHTUNG - Neu in MacOS 27.0.1:**
+
 Wenn ihr AirPrint aktiviert habt melden sich zwei Drucker: einer direkt über Bonjour und einer als Netzwerkdrucker. Bitte den Bonjour Drucker unbedingt löschen! Bei mir konnte CUPS nicht drucken wenn beide Drucker angelegt waren. Der Netzwerkdrucker alleine funktioniert. Das schöne: er wird in MacOS automatisch als Netzwerkdrucker erkannt und sofort korrekt eingerichtet. Ihr brauche ihn NICHT anlegen!
 
 
