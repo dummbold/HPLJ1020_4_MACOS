@@ -16,6 +16,8 @@ Dazu müsst ihr einen CUPS-Druckerserver auf einem Raspberry Pi aufsetzen. Dabei
 Lest einfach alle Details im [**Wiki**](https://github.com/dummbold/HPLJ1020_4_MACOS/wiki)
 
 ---
+**NEWS:**
+---
 
 **Neu in MacOS 27.0.1:**
 
