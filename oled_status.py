@@ -130,6 +130,7 @@ def create_job_test_file():
     ATTR language attributes-natural-language en
     ATTR uri printer-uri $uri
     ATTR integer job-id $job_id
+    ATTR keyword requested-attributes job-state,job-impressions-completed,job-media-sheets-completed
     GROUP end-of-attributes-tag
 }
 '''
@@ -181,7 +182,7 @@ def get_job_attributes(job_id):
             check=False,
         )
         output = result.stdout + result.stderr
-        if result.returncode != 0:
+        if result.returncode != 0 and "job-state" not in output:
             detail = output.strip().replace("\n", " ")
             warn_ipp(detail or f"ipptool endete mit Status {result.returncode}")
             return None, 0, 0
