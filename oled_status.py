@@ -11,12 +11,12 @@
 # - DATA kommt aus der CUPS-Auftragserkennung. 
 #
 # - PRINT startet mit der Übertragung der Daten an den Drucker (aus CUPS).
-# Dann wird f002zfs_monitor.py gestartet. Dieser Prozess überwacht 
-# die Datenübertragung von und zum Drucker und reicht die Daten unverändert
-# an den eigentlichen Prozess foomatic-rip weiter (man-in-the-middle). 
-# Aus diesem Datenstrom liest er das Ende jedes Seitendruckes aus, das der
-# Drucker sendet. Diese Information wird von oled_status.py verarbeitet,
-# um eine synchronisierte Seitenzählung am Display auszugeben.
+#   Dann wird f002zfs_monitor.py gestartet. Dieser Prozess überwacht 
+#   die Datenübertragung von und zum Drucker und reicht die Daten unverändert
+#   an den eigentlichen Prozess foomatic-rip weiter (man-in-the-middle). 
+#   Aus diesem Datenstrom liest er das Ende jedes Seitendruckes aus, das der
+#   Drucker sendet. Diese Information wird von oled_status.py verarbeitet,
+#   um eine synchronisierte Seitenzählung am Display auszugeben.
 #
 # !!Aktualisierte Version vom 17.11.2026 incl. AirPrint Bugfix!!
 #
