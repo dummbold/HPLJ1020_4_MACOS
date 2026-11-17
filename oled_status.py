@@ -18,6 +18,8 @@
 # Drucker sendet. Diese Information wird von oled_status.py verarbeitet,
 # um eine synchronisierte Seitenzählung am Display auszugeben.
 #
+# !!Aktualisierte Version vom 17.11.2026 incl. AirPrint Bugfix!!
+#
 ##################################################################################
 
 import os
