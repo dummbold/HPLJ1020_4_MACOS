@@ -17,12 +17,15 @@ Lest einfach alle Details im [**Wiki**](https://github.com/dummbold/HPLJ1020_4_M
 
 ---
 
-**ACHTUNG - Neu in MacOS 27.0.1:**
+**Neu in MacOS 27.0.1:**
 
 Wenn ihr AirPrint aktiviert habt melden sich beim ersten Druckjob zwei Drucker: einer direkt über Bonjour und einer als Netzwerkdrucker. Bitte den Bonjour Drucker unbedingt löschen! Bei mir konnte CUPS nicht drucken wenn beide Drucker angelegt waren. Der Netzwerkdrucker alleine funktioniert problemlos. Das Schöne: er wird in MacOS automatisch als Netzwerkdrucker erkannt und sofort korrekt eingerichtet. Ihr brauche ihn NICHT manuell anlegen!
 
+**Neu in MacOS 27.2.x:**
+Wie ich inzwischen mitbekommen habe lag die mangelnde Unterstützung des Druckertreibers einfach daran, dass in MacOS 27 Rosetta (Laufzeitumgebung für ältere Software) zunächst nicht automatisch mitinstalliert wurde. Mit einer händischen Installation hätte ich den Drucker ganz normal wieder zum Laufen gebracht. Das wusste ich damals aber nicht und setzte den Server auf. Ab Version 27.2. soll Rosetta wohl weiterhin installiert bleiben. Aber jetzt habe ich den Server aufgesetzt und er läuft. Ein paar Kinderkrankheiten treibe ich ihm noch aus. Und wer weiß - irgendwann wird Apple Rosetta ganz aufgeben. Mein CUPS-Server läuft weiter.
+
 **Bugfix am 17.11.2026:**
-Beim Drucken über AirPrint wurden mehrfach ungültige Attribute für das Druckende an den Server gereicht. Es wurde eine geplante Seite gedruckt. Der Druckerserver wartete auf eine zweite Seite – die aber nie gesendet wurde - und das Display fror quasi ein. Ein kleiner Bugfix sollte diesem Treiben ein Ende bereiten. Da das nicht immer auftrat kann ich es schlecht überprüfen und bin auf eure Mithilfe angewiesen. Bitte installiert die aktuelle Version der _oled_status.py_ und probiert AirPrint aus.
+Beim Drucken über AirPrint wurden mehrfach ungültige Attribute für das Druckende an den Server gereicht. Es wurde eine geplante Seite gedruckt. Der Druckerserver wartete auf eine zweite Seite – die aber nie gesendet wurde - und das Display fror quasi ein. Ein kleiner Bugfix bereitet diesem Treiben ein Ende. Da das Problem nicht immer auftrat kann ich es schlecht überprüfen und bin auf eure Mithilfe angewiesen. Bitte installiert die aktuelle Version der _oled_status.py_ und probiert AirPrint aus.
 
 
 
