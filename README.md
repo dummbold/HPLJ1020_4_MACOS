@@ -21,6 +21,9 @@ Lest einfach alle Details im [**Wiki**](https://github.com/dummbold/HPLJ1020_4_M
 
 Wenn ihr AirPrint aktiviert habt melden sich beim ersten Druckjob zwei Drucker: einer direkt über Bonjour und einer als Netzwerkdrucker. Bitte den Bonjour Drucker unbedingt löschen! Bei mir konnte CUPS nicht drucken wenn beide Drucker angelegt waren. Der Netzwerkdrucker alleine funktioniert problemlos. Das Schöne: er wird in MacOS automatisch als Netzwerkdrucker erkannt und sofort korrekt eingerichtet. Ihr brauche ihn NICHT manuell anlegen!
 
+**Bugfix am 17.11.2026:**
+Beim Drucken über AirPrint wurden mehrfach ungültige Attribute für das Druckende an den Server gereicht. Es wurde eine geplante Seite gedruckt. Der Druckerserver wartete auf eine zweite Seite – die aber nie gesendet wurde - und das Display fror quasi ein. Ein kleiner Bugfix sollte diesem Treiben ein Ende bereiten. Da das nicht immer auftrat kann ich es schlecht überprüfen und bin auf eure Mithilfe angewiesen. Bitte installiert die aktuelle Version der _oled_status.py_ und probiert AirPrint aus.
+
 
 
 [hpljcupsdisplay.webm](https://github.com/user-attachments/assets/8a37256c-d5c6-4891-83c9-5749d2a5ec92)
